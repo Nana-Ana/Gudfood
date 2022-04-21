@@ -46,14 +46,14 @@ table 50103 "Posted Gudfood Order Header"
         {
             Caption = 'Total Qty.';
             FieldClass = FlowField;
-            CalcFormula = Sum("Gudfood Order Line".Quantity WHERE("Order No." = FIELD("No.")));
+            CalcFormula = Sum("Posted Gudfood Order Line".Quantity WHERE("Order No." = FIELD("No.")));
             Editable = false;
         }
         field(6; "Total Amount"; Decimal)
         {
             Caption = 'Total Amount';
             FieldClass = FlowField;
-            CalcFormula = Sum("Gudfood Order Line".Amount WHERE("Order No." = FIELD("No.")));
+            CalcFormula = Sum("Posted Gudfood Order Line".Amount WHERE("Order No." = FIELD("No.")));
             Editable = false;
         }
 
