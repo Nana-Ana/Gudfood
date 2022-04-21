@@ -1,0 +1,31 @@
+{
+  "id": "f4e7b795-08ff-40d7-b5f4-08c1677869e9",
+  "name": "Gudfood",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50120
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "features": ["TranslationFile", "GenerateCaptions"],
+  "supportedLocales": ["en-US", "uk-UA"],
+  "runtime": "8.0"
+}
